@@ -1,0 +1,122 @@
+
+:root{
+    --grey-font-color: #737373;
+    --white-background-color: white;
+    --white-grey-color: #f7f7f7;
+    --black-font-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*HEADER CONFIGURATION*/
+
+header{
+    background-color: var(--white-background-color);
+    padding: 0 40px;
+    height: 115px;
+}
+
+/*HEADER FIRST BAR CONFIGURATIONS*/
+
+header .first, header .first nav ul{
+    display: flex;
+}
+
+header .first nav ul{
+    align-items: center;
+    justify-content: center;
+}
+
+header .first nav ul hr{
+    width: 1px;
+    height: 12px;
+    margin: 0 16px;
+    background-color: black;
+}
+
+header .first nav ul .first-bar-options{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: var(--grey-font-color);
+}
+
+header .first{
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+header .first .first-img{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+header .first .first-img .air{
+    width: 19px;
+    height: 18px;
+}
+
+header .first .first-img .snk{
+    width: 46px;
+    height: 15px;
+}
+
+
+/*HEADER SECOUND BAR CONFIGURATIONS*/
+
+header .secound_main{
+    height: 76px;
+}
+
+header .secound_main, header .secound_main nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .secound_main img{
+    width: 64px;
+    height: 23px;
+}
+
+header .secound_main nav{
+    padding-left: 10%;
+}
+
+header .secound_main nav ul a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: var(--black-font-color);
+    padding: 24px 16px;
+}
+
+
+
+
+header .secound_main .search-box{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+main{
+    background-color: blueviolet;
+}
+footer{
+    background-color: brown;
+}
